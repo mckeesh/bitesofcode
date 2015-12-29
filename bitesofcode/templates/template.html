@@ -1,0 +1,27 @@
+<html>
+	<head>
+		{% load staticfiles %}
+		<link rel="stylesheet" type="text/css" href="{% static 'css/template.css' %}" />
+		<script src="{% static 'js/jquery-1.11.3.min.js' %}"></script>
+		<script src="{% static 'js/keywords.js' %}"></script>
+		<script src="{% static 'js/PageHandler.js' %}"></script>
+		<script src="{% static 'js/MockSnippetDB.js' %}"></script>
+		<script src="{% static 'js/SnippetHandler.js' %}"></script>
+	</head>
+	<body>
+		<div id="titlebar" class="titlebar">
+			<div id="titlebar-title" class="titlebar-title">
+				Bites of Code
+			</div>
+
+			<div class="snippet-background">
+				<div class="filename-bar">
+					<div class="filename-title">
+						SortOfLong.java
+					</div>
+				</div>
+				<div class="snippet-foreground"></div>
+			</div>
+		</div>
+	</body>
+</html>
